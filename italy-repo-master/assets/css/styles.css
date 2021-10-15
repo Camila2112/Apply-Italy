@@ -2315,3 +2315,11 @@ text-align: start !important;
   height: 76px !important;
   width: 255px !important;
 }
+
+.services .nav-tabs .nav-link.active, .services .nav-tabs .nav-item.show .nav-link{
+  height: 122px !important;
+  width: 236px !important;
+  border: 1px solid transparent !important;
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
