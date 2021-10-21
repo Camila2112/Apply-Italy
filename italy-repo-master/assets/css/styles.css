@@ -1007,12 +1007,14 @@ img {
   font-weight: normal;
   font-size: 13px;
   line-height: 150%;
-  position: relative;
+
   text-align: center;
   color: #1B2D35;
 }
-
-.testimonial .test-text:after{
+.swiperAfter{
+  position: relative ;
+}
+/* .testimonial .test-text:after{
   content: "";
   position: absolute;
   bottom: 130px;
@@ -1022,6 +1024,17 @@ img {
   left: 45%;
   border-radius: 3px;
   margin-top: 30px;
+} */
+.swiperAfter:after{
+  content: "";
+  position: absolute;
+  bottom: 16px;
+  background: #149aa3;
+  height: 2px;
+  width: 43px;
+  left: 43%;
+  border-radius: 3px;
+  margin-top: 30px;
 }
 
 .slider-image {
@@ -1029,7 +1042,8 @@ img {
   display: flex;
   justify-content: center;
   margin: 40px 0px;
-  
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .two .swiper-slide{
